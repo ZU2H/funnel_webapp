@@ -3,7 +3,11 @@
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 
-define('LARAVEL_START', microtime(true));
+/**
+ * I put it into comment cause it's already defined
+ */
+
+// define('LARAVEL_START', microtime(true));
 
 /*
 |--------------------------------------------------------------------------
