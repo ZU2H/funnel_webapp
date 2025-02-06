@@ -1,0 +1,10 @@
+services:
+  db:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_DATABASE: db_funnel_webapp
+      MYSQL_ROOT_PASSWORD:
+    ports:
+      - "3306:3306"
